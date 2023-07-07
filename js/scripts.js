@@ -44,12 +44,11 @@ function addListItem(pokemon) {
   pokemonList.appendChild(listItem);
 
 function showDetails(pokemon) {
-    console.log(pokemon.name)
+    console.log(pokemon)
 }
 
 button.addEventListener ('click', function (event) {
   showDetails(pokemon);
-  console.log(event);
  });
 }
 
